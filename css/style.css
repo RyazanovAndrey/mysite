@@ -1,19 +1,9 @@
-.block{
-    margin: 0 auto;
-    width: 800px;
-    height: 800px;
-    border: 1px solid red;
-}
-.box{
-    height: 100px;
-}
-.first{
-    background: rgb(211, 12, 12);
-}
-.second{
-    background: rgb(160, 223, 13);
-}
-.second{
-    background: rgb(7, 71, 209);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
