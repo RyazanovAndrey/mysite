@@ -78,6 +78,14 @@ ul {
     list-style: none;
 }
 
+/* Блок меню */
+.menu-item {
+    background: #F8F8F8;
+    position: sticky;
+    top: 0;
+    height: 70px;
+}
+
 .list-item {
     display: flex;
     column-gap: 90px;
@@ -92,6 +100,7 @@ ul {
     color: #4D8D63;
 }
 
+/* Блок с картинкой и оффером */
 .offer {
     background: url(../img/BG-woomen3.jpg);
     height: 700px;
