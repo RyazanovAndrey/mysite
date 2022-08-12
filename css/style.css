@@ -9,11 +9,16 @@ body {
 }
 
 p,
-br {
+br,
+ul,
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
 }
-h2{
+
+h2 {
     font-size: 25px;
     color: black;
     margin-bottom: 50px;
@@ -24,95 +29,140 @@ a {
     color: #4D8D63;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    border: 1px olid red;
-}
-
+/* Блок логотип, адрес, тел и кнопка */
 .header {
     background: #F8F8F8;
 }
 
-.logo {
-    color: #4D8D63;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.nav {
+.list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 100px;
 }
 
-.call-me a {
-    color: black;
+.logo {
+    font-size: 35px;
+    color: #4D8D63;
+    font-weight: bold;
+}
+
+.adress span {
+    font-weight: bold;
+}
+
+.adress a {
     text-decoration: underline;
 }
 
 .tel span {
     font-weight: bold;
-}
-
-.bg-offer {
-    height: 800px;
-    background: url(../img/BG-woomen.jpg);
-    background-position: center;
-}
-
-.offer {
-    width: 540px;
-}
-
-.offer span {
-    color: #E94035;
+    font-size: 20px;
 }
 
 a.btn {
     display: inline-block;
-    background: #E94035;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid #E94035;
     padding: 25px 50px;
     border-radius: 100px;
-    color: #F8F8F8;
-    font-size: 16px;
-}
-a.btn:hover {
-    background: #DA1F13;
-    transition: all 0.8s;
-    position: relative;
-    margin-top: 1px;
 }
 
-.row-line {
-    height: 800px;
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    column-gap: 90px;
+}
+
+.list-item a {
+    font-weight: bold;
+    color: black;
+}
+
+.list-item a:hover {
+    color: #4D8D63;
+}
+
+.offer {
+    background: url(../img/BG-woomen3.jpg);
+    height: 700px;
+    background-position: center;
+}
+
+.offer-list {
+    width: 550px;
+    height: 700px;
     display: flex;
     align-items: center;
 }
-.offer h1{
-    padding: 40px 0 60px 0;
+
+.offer-list h1 {
+    margin: 60px 0;
 }
-.offer p{
+
+h1 span {
+    color: #E94035;
+}
+
+.offer-list p {
     margin-bottom: 60px;
 }
-.why-as{
+
+a.btn-offer {
+    display: inline-block;
+    background: #E94035;
+    color: #fff;
+    font-weight: bold;
+    padding: 25px 50px;
+    border-radius: 100px;
+}
+
+/* Блок почему мы */
+.why-as {
     padding: 100px 0;
     background: #F8F8F8;
 }
-.row-list{
 
-}
-.item{
+.item {
     width: 270px;
     height: 270px;
     background: #fff;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.item h3{
+
+.item h3 {
     font-size: 20px;
     color: #4D8D63;
 }
-.box{
-    border-radius: 1px solid red;
+
+.box-item {
+    width: 170px;
+    text-align: center;
+}
+
+.row-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    background: #F8F8F8;
+    padding: 50px 0 100px 0;
+}
+
+.row-list h3 {
+    font-size: 20px;
+    color: #4D8D63;
 }
