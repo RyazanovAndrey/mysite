@@ -1,13 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
+    font-size: 16px;
 }
 
+p,
+br {
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #4D8D63;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px olid red;
+}
+
+.header {
+    background: #F8F8F8;
+}
+
+.logo {
+    color: #4D8D63;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.call-me a {
+    color: black;
+    text-decoration: underline;
+}
+
+.tel span {
+    font-weight: bold;
+}
+
+.bg-offer {
+    height: 800px;
+    background: url(../img/BG-woomen.jpg);
+    background-position: center;
+}
+
+.offer {
+    width: 540px;
+}
+
+.offer span {
+    color: #E94035;
+}
+
+a.btn {
+    display: inline-block;
+    background: #E94035;
+    padding: 25px 50px;
+    border-radius: 100px;
+    color: #F8F8F8;
+    font-size: 16px;
+}
+a.btn:hover {
+    background: #DA1F13;
+    transition: all 0.8s;
+    position: relative;
+    margin-top: 1px;
+}
+
+.row-line {
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.offer h1{
+    padding: 40px 0 60px 0;
+}
+.offer p{
+    margin-bottom: 60px;
+}
+.why-as{
+    padding: 100px 0;
+    background: #F8F8F8;
+}
+.row-list{
+
+}
+.item{
+    width: 270px;
+    height: 270px;
+    background: #fff;
+    border-radius: 20px;
+}
+.item h3{
+    font-size: 20px;
+    color: #4D8D63;
+}
+.box{
+    border-radius: 1px solid red;
+}
