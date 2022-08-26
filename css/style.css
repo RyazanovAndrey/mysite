@@ -1,0 +1,375 @@
+@import url(reset.css);
+
+.content {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+body {
+    background: #F8F8F8;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Block Header */
+.line-header {
+    display: flex;
+    justify-content: space-between;
+    color: #4D828D;
+    font-size: 16px;
+    height: 35px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.nav-list {
+    background: #4D828D;
+    position: sticky;
+    top: 0;
+}
+
+.logo a {
+    font-size: 35px;
+    color: #E3FFD1;
+    font-weight: 600;
+}
+
+.item-list {
+    display: flex;
+    gap: 35px;
+}
+
+.item-list li a {
+    color: #E3FFD1;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.5s;
+
+}
+
+.item-list li a:hover {
+    color: #E94035;
+}
+
+.tel span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #E3FFD1;
+}
+
+.tel a {
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+/* Block Offer */
+
+.offer {
+    background: url(../img/BG-picture1.jpg);
+    background-position: center;
+    height: 700px;
+}
+
+.offer-text {
+    width: 540px;
+}
+
+.offer-text p {
+    font-size: 20px;
+}
+
+.offer-title {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 70px 0;
+}
+
+.offer-title span {
+    color: #E94035;
+}
+
+p.title {
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 30px 50px;
+    background: #E94035;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    transition-duration: 1s;
+}
+
+.btn:hover {
+    background: #ac2218;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+/* Block Why-we */
+
+.why-we {
+    background: #F8F8F8;
+    padding: 100px 0 50px 0;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.row-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.box-why {
+    width: 270px;
+    height: 270px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4D8D63;
+    margin-top: 20px;
+}
+
+.box-item {
+    width: 167px;
+    height: 182px;
+    text-align: center;
+}
+
+/* Block services */
+
+.services {
+    padding: 100px 0;
+}
+
+.list {
+    font-weight: 700;
+    color: #4D828D;
+}
+
+.list h3 {
+    margin-top: 15px;
+}
+
+/* Block Doctors */
+
+.consultation {
+    background: #F8F8F8;
+}
+
+.consult-block {
+    background: url(../img/Baner-consult.png);
+
+}
+
+.form-block {
+    width: 900px;
+    padding: 45px 0 45px 60px;
+}
+
+.input-text {
+    width: 250px;
+    height: 75px;
+    border-radius: 100px;
+    border: 1px solid #E94035;
+    text-align: center;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.submit {
+    border: none;
+    cursor: pointer;
+}
+
+.form-info {
+    margin-top: 60px;
+}
+
+/* Block Doctors */
+
+.doctors {
+    padding: 100px 0;
+    background: #F8F8F8;
+}
+
+.block-doctor {
+    width: 270px;
+    height: 450px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.doctor-info {
+    padding: 20px 0 20px 20px;
+}
+
+.block-doctor-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.block-doctor-prof {
+    font-size: 16px;
+    color: #E94035;
+    font-weight: 700;
+}
+
+.block-doctor-work {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-online {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4D8D63;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* Block review */
+
+.review {
+    background: #E9E9E9;
+    padding: 100px 0;
+}
+
+.review-item {
+    width: 360px;
+    height: 240px;
+    background: #F8F8F8;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+
+.review-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.review-ico {
+    width: 83px;
+    height: 83px;
+    background: #4D8D63;
+    border-radius: 50%;
+    line-height: 85px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.review-item p {
+    font-size: 14px;
+}
+
+.row-review {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+/* Block about */
+
+.about {
+    padding: 100px;
+    background: #F8F8F8;
+}
+
+.about p {
+    font-size: 16px;
+    color: #999999;
+    line-height: 141%;
+    width: 530px;
+}
+
+.contacts {
+    padding: 100px;
+}
+
+/* Block content */
+
+.map {
+    width: 590px;
+    height: 370px;
+    background: grey;
+    border-radius: 20px;
+}
+
+.info-tel {
+    font-size: 20px;
+    font-weight: 700;
+    width: 300px;
+    background: url(../img/phone.svg) no-repeat;
+    padding-left: 50px;
+    margin: 45px 10px;
+}
+
+.location {
+    background: url(../img/location.svg) no-repeat;
+}
+
+/* Block footer */
+.footer {
+    background: #4D828D;
+}
+
+.footer p {
+    font-size: 30px;
+    color: #E3FFD1;
+    font-weight: 700;
+}
+
+.tel p {
+    font-size: 16px;
+}
+
+.footer .row-title {
+    padding: 25px;
+}
